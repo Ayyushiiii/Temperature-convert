@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 146, 108);
+    color:rgb(18, 5, 21);
+    font-size: 1rem;
+}
+
+.tempConv{
+    width: 100%;
+    background-color: white;
+    min-width: 320px;
+    padding: 20px 25px 45px;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 15px 15px 5px rgb(58, 103, 74);
+}
+.mobile{
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+font-size: 18px;
+font-weight: 700;
+align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.result{
+    text-align:center;
+    margin: 20px 0;
+}
+.resH{
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.celVal{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+}
+.degType{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+.degField{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+label{
+    color: #555;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+input,select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+input:focus{ 
+    border: 2px solid rgb(52, 94, 67);
+}
+
+option{
+    background-color: rgb(52, 94, 67);
+    color: white;
+}
+#convert{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(rgb(91, 146, 108),rgb(58, 103, 74));
+    padding: 10px 80px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert:hover{
+background: linear-gradient(rgb(49, 136, 79),rgb(26, 184, 76)) ;
+}
+.fa{
+    margin-left: -12px;
+    margin-right: 8px;
+}
